@@ -1,0 +1,16 @@
+1>  Users can either use the binary excution or to compile the source code, there are several aspects you should notice if you compile yourself:
+
+1.	download the C++ library seqan  from http://www.seqan.de/
+	and change the Makefile in line 7, modify the path /home/jiang/bin/seqan to your seqan path
+2.	then just type
+	make
+
+
+2> There is an test example in the test dir
+
+The command is 
+../TSC_version_1.2_i86linux64 -i clone4397up.fa -o clone4397 -r 454 -n 8
+ Users can check the results to test weather your TSC is correct or not
+
+3> The code is CMS by GIT which is also included in the src directory.
+ When using "ls -lah" to list the directory  Users can find out the .git directory, the archive files are in this dir.
